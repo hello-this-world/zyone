@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>FOOTBALL</title>
+
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="icon" href="Soccer ball.ico">
+	<script src="js/jquery.min.js"></script>
+	<audio class="yangshi" autoplay="autoplay" loop="loop" preload="auto"
+            	src="./images/beijing2.mp3">
+	        </audio>
+
+</head>
+<body>
+	<div class="header">
+		<div class="header-middle">
+			<div class="container">
+				<div class="header-middle-logo">
+					<a href="index.html">首页</a>
+				</div>
+				<div class="header-middle-right">
+					<div class="phone">
+						<span> </span>
+						<ul>
+							<li class="gray">打电话吗？</li>
+							<li>110</li>
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="location">
+						<span> </span>
+						<ul>
+							<li class="gray">位于何处？
+							<li>
+							<li>位于重庆！</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<a href="baogao.html"><h3>报告->由此点入！</h3> 
+							</a>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<!-- //container -->
+		</div>
+		<div class="top-nav">
+			<!-- container -->
+			<div class="container">
+				<span class="menu">菜单</span>
+				<ul class="nav1">
+					<li><a href="about.html">了解球员！</a>
+					<li>
+					<li><a href="matches.html">近期比赛！</a>
+					<li>					
+					<li><a href="articles.html">文章！</a>
+					<li><li><a href="gallery.html">画廊！</a>
+					<li>
+						<div class="clearfix"> </div>
+						<div class="header-top-right1">
+							<form>
+								<input type="text" placeholder=" " required="">
+								<input type="submit" value=" ">
+								<div class="clearfix"> 						
+				           </form>
+						</div>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+					$("span.menu").click(function () {
+						$("ul.nav1").slideToggle(300, function () {
+							// Animation complete.
+						});
+					});
+
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!-- //container -->
+		</div>
+		<div class="blue"> </div>
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner-slider">
+		<!-- banner Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+			$(function () {
+				// Slideshow 4
+				$("#slider3").responsiveSlides({
+					auto: true,
+					pager: true,
+					nav: false,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+						$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});
+
+			});
+		</script>
+		<!--//End-slider-script -->
+		<div id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner"> </div>
+				</li>
+				<li>
+					<div class="banner-img"> </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="how">
+		<div class="container">
+			<div class="how-top-grids">
+				<div class="col-md-7 how-left">
+					<h3>为什么喜欢足球？</h3>
+					<a href="https://v.qq.com/x/page/w1359du1kab.html" target="_Blank"><img src="images/4.jpg"
+							alt=""></a>
+					<a class="play-icon popup-with-zoom-anim">
+						<span></span>
+					</a>
+					<h4>下面，我就来说说人们喜欢踢足球的原因？
+					</h4>
+					<p>足球运动有如此大的魅力，不仅在于足球运动孕育着丰富的内涵，而且也与足球运动的特点有关。
+						一、整体性。足球比赛每队由11人上场参赛。场上的11人思想统一，行动要一致，攻则全动，守则全防，整体参战的意识要强。只有形成整体的攻守，才能取得比赛的主动权及良好的比赛结果。
+						二、对抗性。足球运动是一项竞争激烈的对抗性项目，比赛中双方为争夺控制权，达到将球攻进对方球门，而又不让球进入本方球门的目的，展开短兵相接的争斗，尤其是在两个罚球区附近时间、空间的争夺更是异常凶猛，扣人心弦。一场高水平的比赛，双方因争夺和冲撞倒地次数多达200次以上，可见对抗之激烈。
+						三、多变性。足球运动是一项技术上多彩多姿、战术上变幻莫测、胜负结局难以预测的非周期性运动项目，比赛中运用技、战术时要受对方直接的干扰、限制和抵抗。技、战术是依临场中具体情况而灵活机动地加以运用和发挥。
+						四、易行性。足球竞赛规则比较简练，器材设备要求也不高。一般性足球比赛的时间、参赛人数、场地和器材也不受严格限制，因而是全民健身中一项十分易于开展的群众性的体育运动项目。
+					</p>
+				</div>
+				<div class="col-md-5 how-right">
+					<h3>比赛！！！</h3>
+					<div class="tournament">
+						<div class="how-right-left">
+							<img src="images/2020.png" alt="" />
+						</div>
+						<div class="how-right-right">
+							<h4>2020年欧洲杯</h4>
+							<P>2020年受制于疫情的缘故，欧洲杯并未能够按照原计划举行。不过值得庆幸的是，欧足联正式对外宣布将会在6月11日重启欧洲杯赛事，此次赛事为期一个月，将会在7月11日结束
+								。
+							</p>
+							<div class="more">
+								<a href="http://www.dzwww.com/xinwen/jishixinwen/202105/t20210529_8552554.htm"
+									target="_Blank">更多</a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tournament t-middle">
+						<div class="how-right-left">
+							<img src="images/2019.png" alt="" />
+						</div>
+						<div class="how-right-right">
+							<h4>2019年世界杯</h4>
+							<P>2019年国际篮联篮球世界杯（英语：2019 FIBA Basketball World
+								Cup）暨第18届国际篮联篮球世界杯（世界男子篮球锦标赛更名为篮球世界杯后的第二届世界杯），将于2019年8月31日至
+							</p>
+							<div class="more">
+								<a href="https://baike.baidu.com/item/2019%E5%B9%B4%E5%9B%BD%E9%99%85%E7%AF%AE%E8%81%94%E7%AF%AE%E7%90%83%E4%B8%96%E7%95%8C%E6%9D%AF/19739044?fr=aladdin"
+									target="_Blank">更多</a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tournament t-middle">
+						<div class="how-right-left">
+							<img src="images/20201.png" alt="" />
+						</div>
+						<div class="how-right-right">
+							<h4>2020年中国足协杯</h4>
+							<P>2020年中国足协杯是中国足协举行的第28届中国足协杯，本届足协杯经综合疫情防控、竞赛组织等各方面因素考虑，仅2020中超参赛球队（16支）和2020中甲参赛球队（8支）共计24支队伍参加。本届杯赛
+							</p>
+							<div class="more">
+								<a
+									href="https://baike.baidu.com/item/2020%E5%B9%B4%E4%B8%AD%E5%9B%BD%E8%B6%B3%E5%8D%8F%E6%9D%AF/53786559?fr=aladdin">更多</a>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="news">
+		<div class="container">
+			<div class="news-info">
+				<h3>足球新闻</h3>
+			</div>
+			<div class="news-grids">
+				<div class="col-md-4 news-grid">
+					<div class="news-grid-left news-grid-left-img">
+						<p>6 / 12</p>
+					</div>
+					<div class="news-grid-left-info">
+						<h5>6月12日，迟到的欧洲杯终于来了</h5>
+						<p>6月12日凌晨3时，意大利罗马奥林匹克体育场，“2020欧洲杯”揭幕战将在这里进行，一场关于足球的盛宴就此拉开帷幕。</p>
+					</div>
+				</div>
+				<div class="col-md-4 news-grid">
+					<div class="news-grid-left news-grid-middle">
+						<p>6 / 1</p>
+					</div>
+					<div class="news-grid-left-info">
+						<h5>阿坤终于来了，等的好辛苦！</h5>
+						<p>5月31日消息，巴塞罗那官方宣布签下阿根廷前锋阿圭罗，双方签约至2022-23赛季结束，违约金为1亿欧元。</p>
+					</div>
+				</div>
+				<div class="col-md-4 news-grid">
+					<div class="news-grid-left news-grid-right">
+						<p>5 / 09</p>
+					</div>
+					<div class="news-grid-left-info">
+						<h5>足球重点赛事 </h5>
+						<p>上赛季遗憾错失冠军本季阵容又有补强，蔚山现代新赛季将全力冲击冠军；球队人员变动大本赛季已提前锁定降级名额，尚州尚武将如何表现值得期待。</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-info">
+				<h3>球星简介！！！</h3>
+			</div>
+			<div class="banner-bottom-grids">
+				<div class="col-md-4 banner-bottom-grid">
+					<span>克里斯蒂亚诺·罗纳尔多·多斯·桑托斯·阿韦罗</span>
+					<img src="images/yund1.png" alt="" />
+					<p>克里斯蒂亚诺·罗纳尔多·多斯·桑托斯·阿韦罗（Cristiano Ronaldo dos Santos
+						Aveiro），简称“C罗”，1985年2月5日出生于葡萄牙马德拉岛丰沙尔，葡萄牙职业足球运动员，司职边锋／中锋，效力于意甲的尤文图斯足球俱乐部。
+					</p>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<span>里奥·梅西</span>
+					<img src="images/yund2.png" alt="" />
+					<p>莱奥·梅西（Leo Messi），正式名利昂内尔·梅西（Lionel Messi），全名利昂内尔·安德烈斯·梅西·库西蒂尼（Lionel Andrés Messi
+						Cuccitini），1987年6月24日出生于阿根廷圣菲省罗萨里奥，阿根廷足球运动员，司职前锋，效力于西甲巴塞罗那足球俱乐部，亦担任球队队长。
+					</p>
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<span>大卫·贝克汉姆</span>
+					<img src="images/yund3.png" alt="" />
+					<p>大卫·贝克汉姆（David Beckham），1975年5月2日出生于英国伦敦雷顿斯通，前英国职业足球运动员，司职中场 。
+						大卫·贝克汉姆青少年时期在曼联成名，1999、2001年两次获世界足球先生银球奖，1999年当选欧足联最佳球员，2001年被评为英国最佳运动员，2010年获得BBC终身成就奖。
+					</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<!-- container -->
+		<div class="container">
+			<div class="footer-top">
+					<div class="footer-grids">
+						<div class="col-md-3 f-address">
+							<h3>凤栖梧·又到阜新兼怀故诗友</h3>
+							<ul>
+								<li>凤栖梧·又到阜新兼怀故诗友。</li>
+								<li>为有诗风吹市韵，击掌倾樽，高宇留芳信。</li>
+								<li>最是春花开未尽，待君簪上苍苍鬓。</li>																		
+								<li>弹指十年真一瞬。约也无言,</li>
+								<li>约也无言，有忆无从问。</li>
+								<li>云影依然无远近，还牵明月来相认。</li>
+							</ul>
+						</div>
+						<div class="col-md-6 f-address f-contact">
+							<img class="yangshi12" src="images/tiankong.gif" alt="" />
+						</div>
+						<div class="col-md-3 footer-logo">
+							<div class="footer-left">
+								<h3>一则短小而有趣的故事</h3>
+								<ul>
+									<p>有人问农夫：“种了麦子了吗?”农夫：“没，我担心天不下雨。”
+									那人又问：“那你种棉花没?”
+									农夫：“没，我担心虫子吃了棉花。”
+									那人再问：“那你种了什么?”
+									农夫：“什么也没种，我要确保安全。</p>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="footer-bottom">
+						
+						<div class="clearfix"> </div>
+					</div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+</body>
+
+</html>
